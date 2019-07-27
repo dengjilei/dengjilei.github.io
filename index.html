@@ -1,7 +1,79 @@
-<!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=GBK">
+	<title>Document</title>
+      
+	<script src="C:\Users\whxh\Desktop\jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			//给每个span加事件
+			$("#pinfeng span").click(function(){
+				$(this).text("★");//当前点击的元素
+				$(this).siblings().text("★");//当前点击元素的兄弟元素
+				$(this).nextAll().text("☆");//之后的兄弟元素空心
+			})
+		})
+	</script>
+	<style type="text/css">
+		#pinfeng span{
+			cursor: pointer;
+		}
+	</style>
+</head>
 <body>
-  <h1>Hello World</h1>
-  <p style="size=3;color='green'" >I'm hosted with GitHub Pages.</p>
-  </body>
+	<div id="pinfeng">
+		<span>☆</span>
+		<span>☆</span>
+		<span>☆</span>
+		<span>☆</span>
+		<span>☆</span>
+	</div>
+	
+	
+<div class="hd-logo">
+<h1><a href="http://blog.163.com/" title="网易博客，新锐人文生活">网易博客，blog.163.com，新锐人文生活</a></h1>
+<div id="hd-more" class="hd-more">
+<div class="arw-1">网易博客</div>
+<ul class="ch-list">
+    <li><a href="http://blog.163.com/" target="_self">博客首页</a></li>
+    <li><a href="http://pp.blog.163.com/" target="_self">博客拍拍</a></li>
+    <li><a href="http://blog.163.com/public/theme/" target="_self">精美风格</a></li>
+    <li><a href="http://q.163.com/#home" target="_self">博客圈子</a></li>
+    <li><span class="line"></span></li>
+    <li><a href="http://blog.163.com/findFriend.do?type=5" target="_self">找 朋 友</a></li>
+    <li><a href="http://blog.163.com/clone/clone.html" target="_self">博客复制</a></li>
+    <li><a href="http://blog.163.com/services/wapblog.html" target="_self">手机博客</a></li>
+    <li><a href="http://blog.163.com/services/emsblog.html" target="_self">短信写博</a></li>
+    <li><span class="line"></span></li>
+    <li><a href="http://blog.163.com/services/all.html">更多&gt;&gt;</a></li>
+</ul>
+</div>
+</div>
+<div class="hd-nav">
+<ul class="nav-list">
+<li class="first"><a href="http://blog.163.com/" target="_self" >首页</a></li>
+                <li><a href="http://blog.163.com/pic.html" target="_self" >图片</a></li>
+                <li><a href="http://blog.163.com/community.html" target="_self" >社会</a></li>
+                <li><a href="http://blog.163.com/know.html" target="_self" >新知</a></li>
+                <li><a href="http://blog.163.com/culture.html" target="_self" >文化</a></li>
+                <li><a href="http://blog.163.com/ent.html" target="_self" >娱乐</a></li>
+		<li><a href="http://blog.163.com/music.html" target="_self" >音乐</a></li>
+		<li><a href="http://blog.163.com/sense.html" target="_self" >情感</a></li>
+                <li><a href="http://blog.163.com/life.html" target="_self" >生活</a></li>
+                <li><a href="http://blog.163.com/health.html" target="_self" >健康</a></li>
+		<li><a href="http://blog.163.com/travel.html" target="_self" >旅游</a></li>
+                <li><a href="http://blog.163.com/leisure.html" target="_self" >休闲</a></li>
+                <li><a href="http://blog.163.com/edu.html" target="_self" >教育</a></li>
+                <li><a href="http://blog.163.com/arts.html" target="_self" >艺术</a></li>
+                <li><a href="http://blog.163.com/auto.html" target="_self" >汽车</a></li>
+<li><a href="http://blog.163.com/sports.html" target="_self" >体育</a></li>
+		<li><a href="http://blog.163.com/tech.html" target="_self" >科技</a></li>
+<li><a href="http://blog.163.com/blogger.html" target="_self" >名博</a></li>
+</ul>
+<span class="nav-l"></span>
+<span class="nav-r"></span>
+</div>
+</div>
+</body>
+
 </html>
