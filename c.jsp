@@ -9,7 +9,8 @@
 <body>
   	<%
 		String a = request.getRemoteAddr();
+		response.getOutputStream().print(a);
 	%>
-	这就是你的IP地址：<%=a %>
+	
 </body>
 </html>
